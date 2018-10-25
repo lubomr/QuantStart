@@ -9,7 +9,7 @@ class TickEvent(Event):
         self.time = time
         self.bid = bid
         self.ask = ask
-
+# I am playing with git
 class SignalEvent(Event):
     def __init__(self, instrument, order_type, side):
         self.type = 'SIGNAL'
@@ -24,3 +24,7 @@ class OrderEvent(Event):
         self.units = units
         self.order_type = order_type
         self.side = side
+		
+		
+		
+		
